@@ -2,8 +2,9 @@
 
 :root
 {
-	--text-color: #29561F;
+	--text-color: #29561F; /* nowe: 4CAC27 stare: 29561F*/
 	--gray-color: #79CB5C;
+	--button-color: #4CAC27;
 }
 
 body
@@ -64,6 +65,29 @@ table th
 	vertical-align: top;
 }
 
+.click-button
+{
+	width: 200px;
+	height: 50px;
+	background-color: var(--button-color);
+	border: 2px solid var(--text-color);
+	
+	font-family: Georgia;
+	font-size: 25px;
+	border-radius: 25px;
+}
+
+.click-button:hover
+{
+	background-color: var(--text-color);
+	border: 2px solid black;
+}
+
+#button1
+{
+	margin-bottom: 25px;
+}
+
 @media only screen and (max-width: 900px)
 {
 	#main-div
@@ -82,5 +106,45 @@ table th
 	img
 	{
 		/* width: 150px; */
+	}
+	
+	#m1
+	{
+		order: 1;
+	}
+	
+	#m2
+	{
+		order: 1;
+	}
+	
+	#m4
+	{
+		order: 2;
+	}
+	
+	#m3
+	{
+		order: 3;
+	}
+	
+	#m5
+	{
+		order: 4;
+	}
+	
+	#m6
+	{
+		order: 4;
+	}
+	
+	#m7
+	{
+		order: 4;
+	}
+	
+	#m8
+	{
+		order: 4;
 	}
 }
