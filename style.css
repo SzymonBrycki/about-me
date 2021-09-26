@@ -75,6 +75,8 @@ table th
 	font-family: Georgia;
 	font-size: 25px;
 	border-radius: 25px;
+	
+	cursor: pointer;
 }
 
 .click-button:hover
@@ -88,7 +90,7 @@ table th
 	margin-bottom: 25px;
 }
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 1000px)
 {
 	#main-div
 	{
@@ -136,6 +138,10 @@ table th
 	#m6
 	{
 		order: 4;
+		margin-left: auto;
+		margin-right: auto;
+		
+		width: 45%;
 	}
 	
 	#m7
