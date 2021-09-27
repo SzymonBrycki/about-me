@@ -77,6 +77,8 @@ table th
 	border-radius: 25px;
 	
 	cursor: pointer;
+	
+	/* margin: 5px; */
 }
 
 .click-button:hover
@@ -87,7 +89,18 @@ table th
 
 #button1
 {
-	margin-bottom: 25px;
+	margin-bottom: 10px;
+}
+
+hr
+{
+	border: 2px solid var(--text-color);
+}
+
+#m9
+{
+	text-align: center;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 1000px)
@@ -112,45 +125,41 @@ table th
 	
 	#m1
 	{
-		order: 1;
+		order: -3;
 	}
 	
 	#m2
 	{
-		order: 1;
+		order: -3;
 	}
 	
 	#m4
 	{
-		order: 2;
+		order: -2;
 	}
 	
 	#m3
 	{
-		order: 3;
+		order: -1;
 	}
 	
 	#m5
 	{
-		order: 4;
+	/* order: 4; */
 	}
 	
 	#m6
 	{
-		order: 4;
-		margin-left: auto;
-		margin-right: auto;
-		
-		width: 45%;
+		/* order: 4; */
 	}
 	
 	#m7
 	{
-		order: 4;
+		/* order: 4; */
 	}
 	
 	#m8
 	{
-		order: 4;
+		/* order: 4; */
 	}
 }
