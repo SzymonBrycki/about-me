@@ -18,6 +18,8 @@ body
 	margin-left: auto;
 	margin-right: auto;
 	
+	font-size: 16px;
+	
 	border: 3px solid var(--text-color);
 	
 	display: flex;
@@ -130,6 +132,11 @@ hr
 				 8px 8px green,
 				 10px 10px blue,
 				 12px 12px purple;
+}
+
+.normal_letters
+{
+	font-size: 16px;
 }
 
 @media only screen and (max-width: 1000px)
