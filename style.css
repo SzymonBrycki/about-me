@@ -99,8 +99,37 @@ hr
 
 #m9
 {
+	width: 90%;
+
 	text-align: center;
 	font-weight: bold;
+}
+
+.center_div
+{
+	text-align: center;
+	
+	width: 90%;
+	margin: 5px;
+	
+	font-size: 26px;
+	font-weight: bold;
+	
+	background-color: var(--gray-color);
+	
+	border-radius: 25px;
+}
+
+#rainbow_text
+{
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 2px 2px red,
+				 4px 4px orange,
+				 6px 6px yellow,
+				 8px 8px green,
+				 10px 10px blue,
+				 12px 12px purple;
 }
 
 @media only screen and (max-width: 1000px)
